@@ -12,6 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Debug Git
+        run: |
+          git status
+          git log --oneline -n 5
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
