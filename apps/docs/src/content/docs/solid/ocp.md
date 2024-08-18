@@ -1,5 +1,5 @@
 ---
-title: Prícipio Aberto/Fechado
+title: Princípio Aberto/Fechado
 description: Explicação sobre o segundo principio do SOLID - Prícipio Aberto/Fechado
 ---
 

@@ -19,9 +19,9 @@ export default defineConfig({
 				{
 					label: 'Comece Aqui',
 					items: [
-						{ label: 'Introdução', slug: 'introduction/guide' },
-						{ label: 'Como Contribuir', slug: 'introduction/contribute' },
-						{ label: 'Como Estudar os Exemplos', slug: 'introduction/study' },
+						{ label: 'Introdução', slug: 'guide/guide' },
+						{ label: 'Como Contribuir', slug: 'guide/contribute' },
+						{ label: 'Como Estudar os Exemplos', slug: 'guide/study' },
 					],
 				},
 				{
