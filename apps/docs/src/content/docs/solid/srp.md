@@ -155,6 +155,16 @@ processor.process();
 
 Veja que, agora, ao invés de apenas uma classe, temos cinco, e cada uma tem sua responsabilidade. Agora, se quisermos adicionar uma etapa a mais nesse código, como por exemplo, o cálculo de médias, só precisaremos alterar uma classe, e as outras continuarão fazendo o que faziam antes como se nada tivesse acontecido. Além disso, ganhamos uma redução na curva de aprendizado, pois, ao invés de ler um arquivo enorme, leremos classe por classe e entenderemos sua participação no todo de maneira individual.
 
+## Exemplos de Código
+
+- [Exemplo SRP em programação funcional](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/srp/functional)
+    - [Exemplo funcional ruim](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/srp/functional/bad)
+    - [Exemplo funcional bom](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/srp/functional/good)
+
+- [Exemplo SRP em programação orientada a objetos](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/srp/oop)
+    - [Exemplo OOP ruim](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/srp/oop/bad)
+    - [Exemplo OOP bom](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/srp/oop/good)
+
 ## Conclusão
 
 Entendemos que o princípio da responsabilidade única diz respeito diretamente à ação daquela classe ou função dentro do nosso código. Cada uma deve ter sua responsabilidade e, com isso, apenas um motivo para ser alterada. Entendemos que, quando seguimos esse princípio, a classe `DataReader` não precisa ser alterada se adicionarmos a possibilidade de trazer os dados em gráficos, pois isso não tem nada a ver com leitura, e sim com exibição. Espero que esse conteúdo seja útil para que você consiga aplicar esse conceito no seu dia a dia.

@@ -94,6 +94,16 @@ Primeiro, criamos uma interface `PaymentMethod`, que define como todo método de
 
 Agora, se quisermos adicionar novos métodos de pagamento, basta criar uma nova classe que implemente `PaymentMethod`. Ao usar `PaymentProcessor`, passamos a nova classe como parâmetro, e tudo funcionará da mesma forma, sem precisar alterar as classes existentes.
 
+## Exemplos de Código
+
+- [Exemplo OCP em programação funcional](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/ocp/functional)
+    - [Exemplo funcional ruim](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/ocp/functional/bad)
+    - [Exemplo funcional bom](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/ocp/functional/good)
+
+- [Exemplo OCP em programação orientada a objetos](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/ocp/oop)
+    - [Exemplo OOP ruim](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/ocp/oop/bad)
+    - [Exemplo OOP bom](https://github.com/b1z3rr4/software-concepts-journal/tree/main/exemples/solid/ocp/oop/good)
+
 ## Conclusão
 
 Entendemos que, ao criar nossas classes, devemos prezar pela estabilidade. Uma vez criada e definida, uma classe não deve mais ser modificada, mas sim estendida. Ela deve ser projetada já com esse princípio em mente, sabendo que, no futuro, ao adicionar uma nova funcionalidade, ela não poderá ser alterada, mas deverá ser implementada por outra classe, responsável por toda a nova lógica. Espero que esse conceito tenha sido tão útil para você quanto foi para mim, e que tenha ficado tão empolgado quanto eu ao entendê-lo.
