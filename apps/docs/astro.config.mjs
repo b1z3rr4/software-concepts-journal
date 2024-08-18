@@ -8,7 +8,7 @@ export default defineConfig({
 	output: "static",
 	base: isProduction ? "/software-concepts-journal/" : "/",
   	site: isProduction
-		? "https://b1z3rr4.github.io/software-concepts-journal"
+		? "https://b1z3rr4.github.io/software-concepts-journal/"
 		: undefined,
 	integrations: [
 		starlight({
