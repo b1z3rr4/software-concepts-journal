@@ -1,6 +1,6 @@
 ---
 title: Introdução
-description: Uma breve introdução aos principios de SOLID
+description: Uma breve introdução aos princípios de SOLID
 ---
 
 # Introdução

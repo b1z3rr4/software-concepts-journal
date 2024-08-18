@@ -1,6 +1,6 @@
 ---
 title: Princípio da Responsabilidade Única
-description: Explicação sobre o primeiro principio do SOLID - Principio da Responsabilidade Unica
+description: Explicação sobre o primeiro principio do SOLID - Principio da Responsabilidade Única
 ---
 
 # Princípio da Responsabilidade Única

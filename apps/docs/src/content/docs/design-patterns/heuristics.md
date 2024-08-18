@@ -1,9 +1,9 @@
 ---
-title: Heurísticas de Uncle Bob
-description: Breve resumo sobre a importância de Uncle Bob
+title: Heurísticas de Robert C. Martin
+description: Breve resumo sobre a importância de Robert C. Martin
 ---
 
-# Heurísticas de Uncle Bob
+# Heurísticas de Robert C. Martin
 
 Robert C. Martin, conhecido como "Uncle Bob", é uma figura influente no desenvolvimento de software e autor de vários princípios de design e práticas recomendadas. Suas heurísticas e recomendações são amplamente adotadas para garantir que o código seja limpo, modular e fácil de manter. No entanto, é importante ressaltar que, como Robert C. Martin enfatiza, essas heurísticas não devem ser aplicadas de forma isolada. Elas fazem parte de um contexto mais amplo que é detalhado em seus livros, e a compreensão completa desse contexto é essencial para aplicá-las corretamente. 
 

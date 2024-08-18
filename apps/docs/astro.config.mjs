@@ -26,19 +26,19 @@ export default defineConfig({
 					label: 'Design Patterns',
 					items: [
 						{ label: 'Introdução', slug: 'design-patterns/overview' },
-						{ label: 'Padrões Criacioinais', slug: 'design-patterns/creational' },
+						{ label: 'Padrões Criacionais', slug: 'design-patterns/creational' },
 						{ label: 'Padrões Estruturais', slug: 'design-patterns/structural' },
 						{ label: 'Padrões Comportamentais', slug: 'design-patterns/behavioral' },
 						{ label: 'Boas Práticas', slug: 'design-patterns/others' },
-						{ label: 'Heurísticas de Uncle Bob', slug: 'design-patterns/heuristics' },
+						{ label: 'Heurísticas de Robert C. Martin', slug: 'design-patterns/heuristics' },
 					],
 				},
 				{
 					label: 'SOLID', 
 					items: [
 						{ label: 'Introdução', slug: 'solid/overview' },
-						{ label: 'Príncipio da Responsábilidade Única', slug: 'solid/srp' },
-						{ label: 'Prícipio Aberto/Fechado', slug: 'solid/ocp' },
+						{ label: 'Principio da Responsabilidade Única', slug: 'solid/srp' },
+						{ label: 'Principio Aberto/Fechado', slug: 'solid/ocp' },
 					]
 				}
 			],
