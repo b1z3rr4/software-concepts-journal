@@ -1,6 +1,6 @@
 ---
 title: Design Patterns
-description: Ola
+description: Introdução ao conceito de Design Patterns
 ---
 
 # Design Patterns
