@@ -1,20 +1,20 @@
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
 
-const isProduction = process.env.NODE_ENV == "production";
+const isDevelopment = process.env.NODE_ENV === "development";
 
 // https://astro.build/config
 export default defineConfig({
 	output: "static",
-	base: isProduction ? "/software-concepts-journal/" : "/",
-  	site: isProduction
-		? "https://b1z3rr4.github.io/software-concepts-journal/"
-		: undefined,
+	base: isDevelopment ? "/" : "/software-concepts-journal/",
+  	site: isDevelopment
+		? undefined
+		: "https://b1z3rr4.github.io/software-concepts-journal/",
 	integrations: [
 		starlight({
 			title: 'Design Patterns',
 			social: {
-				github: 'https://b1z3rr4.github.io/software-concepts-journal/',
+				github: 'https://github.com/b1z3rr4/software-concepts-journal',
 			},
 			sidebar: [
 				{
