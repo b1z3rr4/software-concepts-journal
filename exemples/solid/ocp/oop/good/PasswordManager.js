@@ -1,10 +1,15 @@
+import { Encrypt } from "./Encrypt";
+
 class PasswordManager {
-    constructor() {
+    encrypt = Encrypt;
+
+    constructor(Encrypt) {
         this.saltRounds = 10;
+        encrypt = Encrypt;
     }
 
-    async generatePassword(pass, Encrypt) {
-        return Encrypt(pass);
+    async generatePassword(pass) {
+        return Encrypt.exec(pass);
     }
 }
 

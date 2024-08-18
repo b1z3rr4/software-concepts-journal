@@ -10,8 +10,8 @@ export class Program {
     static main() {
         const password = 'minha123@Senha';
         const encrypt = new PasswordManager();
-        const passwordEncrypted = encrypt.generatePassword(password, AESEncrypt.exec);
-        // OU BcryptEncrypt.exec
+        const passwordEncrypted = encrypt.generatePassword(password, AESEncrypt);
+        // OU BcryptEncrypt
         return passwordEncrypted;
     }
 }
