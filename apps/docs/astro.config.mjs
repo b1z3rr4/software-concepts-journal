@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-	base: "/software-concepts-journal/",
+	base: "/software-concepts-journal",
   	site: "https://b1z3rr4.github.io/software-concepts-journal/",
 	integrations: [
 		starlight({
