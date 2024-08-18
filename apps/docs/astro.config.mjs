@@ -6,10 +6,10 @@ const isDevelopment = process.env.NODE_ENV === "development";
 // https://astro.build/config
 export default defineConfig({
 	output: "static",
-	base: isDevelopment ? "/" : "/software-concepts-journal/",
+	base: isDevelopment ? "" : "/software-concepts-journal",
   	site: isDevelopment
 		? undefined
-		: "https://b1z3rr4.github.io/software-concepts-journal/",
+		: "https://b1z3rr4.github.io/software-concepts-journal",
 	integrations: [
 		starlight({
 			title: 'Design Patterns',
