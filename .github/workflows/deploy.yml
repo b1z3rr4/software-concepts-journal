@@ -32,6 +32,8 @@ jobs:
 
       - name: Build docs
         working-directory: ./apps/docs
+        env:
+          NODE_ENV: production
         run: pnpm build
 
       - name: Deploy to GitHub Pages

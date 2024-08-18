@@ -13,7 +13,7 @@ export default defineConfig({
 		starlight({
 			title: 'Design Patterns',
 			social: {
-				github: 'https://b1z3rr4.github.io/software-concepts-journal',
+				github: 'https://b1z3rr4.github.io/software-concepts-journal/',
 			},
 			sidebar: [
 				{
