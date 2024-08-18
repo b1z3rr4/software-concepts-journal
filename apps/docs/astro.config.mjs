@@ -5,6 +5,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 // https://astro.build/config
 export default defineConfig({
+	output: "static",
 	base: isProduction ? "/software-concepts-journal/" : "/",
   	site: isProduction
 		? "https://b1z3rr4.github.io/software-concepts-journal"
